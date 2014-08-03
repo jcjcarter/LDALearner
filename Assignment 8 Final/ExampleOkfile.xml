@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<LDA_model>
+<word_probs> //_________________________________________________
+	<num_topics>3</num_topics>//----------
+	<topic><topic_num>0</topic_num>///NAME OF THE TOPIC VECTOR HERE 0
+		<dense_vector>//////////////<<<<<<<<<<1
+			<length>2</length>
+			<entry><dim>0</dim><val>0.0</val></entry>
+			<entry><dim>1</dim><val>1.0</val></entry>
+		</dense_vector>////////////<<<<<<<<<<<<1
+	</topic>
+	<topic><topic_num>1</topic_num>////NAME OF THE TOPIC VECTOR HERE 1
+		<dense_vector>///////////<<<<<<<<<<<2
+			<length>2</length>
+			<entry><dim>0</dim><val>0.6336975296559908</val></entry>
+			<entry><dim>1</dim><val>0.36630247034400926</val></entry>
+		</dense_vector>///////<<<<<<<<<<<<<<<<2
+	</topic>
+	<topic><topic_num>2</topic_num>///NAME OF THE TOPIC VECTOR HERE 2
+		<dense_vector>///////////<<<<<<<<<<<<3
+			<length>2</length>
+			<entry><dim>0</dim><val>0.832534036136314</val></entry>
+			<entry><dim>1</dim><val>0.16746596386368598</val></entry>
+		</dense_vector>//////////<<<<<<<<<<<3
+	</topic>
+</word_probs> //_____________________________________________________ 
+<corpus>___________________________________________
+	<num_docs>4</num_docs>/////________>>>>>02
+	<doc_in_corpus>///got it
+		<doc_name>0</doc_name>/GOT IT//NAME OF THE THE DOCUMENT IS HERE 0
+		<words_in_doc>////GOT IT352
+			<sparse_int_vector>////GOT 353////////>>>>>>
+				<length>2</length>///354GOT IT EXTRACT ACT
+				<non_zero_cnt>2</non_zero_cnt>///355GOT IT NEED A VALUE
+				<entry><dim>0</dim><val>2</val></entry>///GOT IT 356 NEED LOOP
+				<entry><dim>1</dim><val>3</val></entry>///^^^^
+			</sparse_int_vector>//////////>>>>>>>>///GOT IT357
+		</words_in_doc>//GOT IT358
+		<topic_probs>// GOT 359
+			<dense_vector>///////<<<<<<<<<<<gout<<360
+				<length>3</length>////got it 362 
+				<entry><dim>0</dim><val>0.0</val></entry>
+				<entry><dim>1</dim><val>1.0</val></entry>
+				<entry><dim>2</dim><val>4.087766153938675E-96</val></entry>
+			</dense_vector>///////<<<<<<<<<<<<<gout 362
+		</topic_probs>//got 361
+	</doc_in_corpus>///got it
+	<doc_in_corpus>
+		<doc_name>1</doc_name>/////NAME OF THE DOCUMENT IS HERE 1
+		<words_in_doc>
+			<sparse_int_vector>////////>>>>>>>>>>
+				<length>2</length>
+				<non_zero_cnt>2</non_zero_cnt>
+				<entry><dim>0</dim><val>4</val></entry>
+				<entry><dim>1</dim><val>1</val></entry>
+			</sparse_int_vector>///////>>>>>>>>>>>>
+		</words_in_doc>
+		<topic_probs>
+			<dense_vector>//////<<<<<<<<<<<<
+				<length>3</length>/////////////Since the length is 3 in the input
+				<entry><dim>0</dim><val>0.0</val></entry>
+				<entry><dim>1</dim><val>0.26207008634146556</val></entry>
+				<entry><dim>2</dim><val>0.7379299136585344</val></entry>
+			</dense_vector>///////<<<<<<<<<<
+		</topic_probs>
+	</doc_in_corpus>
+	<doc_in_corpus>
+		<doc_name>2</doc_name>///NAME OF THE DOCUMENT IS HERE 2
+		<words_in_doc>
+			<sparse_int_vector>////////////>>>>>>>>
+				<length>2</length>
+				<non_zero_cnt>2</non_zero_cnt>
+				<entry><dim>0</dim><val>4</val></entry>
+				<entry><dim>1</dim><val>1</val></entry>
+			</sparse_int_vector>///////////>>>>>>>>>
+		</words_in_doc>
+		<topic_probs>
+			<dense_vector>//////<<<<<<<<<<<<<<<<
+				<length>3</length>/////////////since 3 is here that is the length
+				<entry><dim>0</dim><val>6.865185521642055E-124</val></entry>
+				<entry><dim>1</dim><val>1.0</val></entry>
+				<entry><dim>2</dim><val>7.781345548182432E-208</val></entry>
+			</dense_vector>/////<<<<<<<<<<<<<<<<<
+		</topic_probs>
+	</doc_in_corpus>
+	<doc_in_corpus>
+		<doc_name>3</doc_name>/////NAME OF THE DOCUMENT IS HERE 3 (TOTAL OF FOUR)
+		<words_in_doc>
+			<sparse_int_vector>//////////////>>>>>>>>>>>>>
+				<length>2</length>//////////since 2 is here, that is the number of words
+				<non_zero_cnt>2</non_zero_cnt>
+				<entry><dim>0</dim><val>1</val></entry>
+				<entry><dim>1</dim><val>4</val></entry>
+			</sparse_int_vector>/////////////>>>>>>>>>>>>>>
+		</words_in_doc>
+		<topic_probs>
+			<dense_vector>/////////<<<<<<<<<<<<<<<<<<<<<
+				<length>3</length>
+				<entry><dim>0</dim><val>1.3701110801034105E-18</val></entry>
+				<entry><dim>1</dim><val>1.0</val></entry>
+				<entry><dim>2</dim><val>0.0</val></entry>
+			</dense_vector>////////////<<<<<<<<<<<<<<
+		</topic_probs>
+	</doc_in_corpus>
+</corpus>//_____________________________
+</LDA_model>

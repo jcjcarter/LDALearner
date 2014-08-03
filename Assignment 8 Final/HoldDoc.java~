@@ -1,0 +1,21 @@
+import java.util.*;
+// this silly little class is just a wrapper for a DocSignature name, DocSignature pair 
+class HoldDoc{
+  
+  String docName;
+  DocSignature docSig;
+  
+  public HoldDoc(String docNameIn, DocSignature docSigIn){
+    
+    docName = docNameIn;
+    docSig = docSigIn;
+  }
+  
+  public DocSignature getDocSig(){
+    return docSig;
+  }
+  
+  public String getDocName(){
+    return docName;
+  }
+}
